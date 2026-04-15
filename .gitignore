@@ -7,3 +7,5 @@ __pycache__/
 .pytest_cache/
 # Obsidian vault — personal content, not open-sourced
 Systems_Thinker/
+# Skills — personal publishing workflows, not open-sourced
+Skills/
