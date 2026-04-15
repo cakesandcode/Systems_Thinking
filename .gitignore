@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+.pytest_cache/
+# Obsidian vault — personal content, not open-sourced
+Systems_Thinker/
