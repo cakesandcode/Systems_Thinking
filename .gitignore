@@ -9,3 +9,5 @@ __pycache__/
 Systems_Thinker/
 # Skills — personal publishing workflows, not open-sourced
 Skills/
+# Claude Code agents — personal workflow, not open-sourced
+.claude/
