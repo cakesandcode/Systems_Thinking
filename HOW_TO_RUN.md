@@ -2,7 +2,10 @@
 
 ## Start the App
 
+All commands run from the **project root** (`Systems_Thinking/`), where the `.venv` lives:
+
 ```bash
+cd /Users/arunakumar/Claude_Projects/Systems_Thinking
 source .venv/bin/activate
 streamlit run code/chip_to_rack/app/app.py
 ```
@@ -54,7 +57,10 @@ Where Q is GPU TDP in watts and each R is thermal resistance in K/W.
 
 ## Run Tests
 
+From the project root:
+
 ```bash
+cd /Users/arunakumar/Claude_Projects/Systems_Thinking
 source .venv/bin/activate
 cd code/chip_to_rack
 python -m pytest tests/ -v --tb=short
