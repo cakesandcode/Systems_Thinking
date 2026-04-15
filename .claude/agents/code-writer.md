@@ -10,7 +10,7 @@ You are the Code Writer for the Systems_Thinking thermal framing project.
 
 - Stack: Python 3.12 + Streamlit + Plotly
 - Domain: Thermal resistance chain modeling
-- Tests: `pytest tests/ -v --tb=short`
+- Tests: `cd code/chip_to_rack && pytest tests/ -v --tb=short`
 
 ## Code Standards
 

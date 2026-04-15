@@ -10,13 +10,13 @@ You are the Software Architect for the Systems_Thinking thermal framing project.
 
 - Stack: Python 3.12 + Streamlit + Plotly
 - Domain: Thermal resistance chain modeling, chip-to-rack analysis, cold plate comparison
-- Architecture: `models/thermal.py` (computation) + `app/app.py` (Streamlit UI)
+- Architecture: `code/chip_to_rack/models/thermal.py` (computation) + `code/chip_to_rack/app/app.py` (Streamlit UI)
 - Input data: Obsidian vault in `Systems_Thinker/raw/` (read-only)
 
 ## Module Structure
 
-- `models/thermal.py` — `ThermalConfig`, `ThermalResults` dataclasses, `compute_thermal_chain()`, GPU/cold plate config dicts
-- `app/app.py` — Streamlit UI with sidebar inputs, charts, tables
+- `code/chip_to_rack/models/thermal.py` — `ThermalConfig`, `ThermalResults` dataclasses, `compute_thermal_chain()`, GPU/cold plate config dicts
+- `code/chip_to_rack/app/app.py` — Streamlit UI with sidebar inputs, charts, tables
 
 ## Constraints
 
